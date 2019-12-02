@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": false,
+    "esModuleInterop": true,
+    "outDir": "dist/",
+    "types": ["node", "mocha"],
+    "typeRoots": ["node_modules/@types"],
+    "declaration": true,
+    "allowJs": true
+  },
+  "include": [
+    "./lib/**/*"
+  ]
+}

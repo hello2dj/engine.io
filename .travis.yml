@@ -7,3 +7,7 @@ git:
   depth: 1
 notifications:
   irc: "irc.freenode.org#socket.io"
+script:
+  - npm run format:check
+  - npm run build
+  - npm test
